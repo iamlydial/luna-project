@@ -1,0 +1,58 @@
+
+.user-profile-restaurants-container{
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    justify-content: center;
+    /*border: 2px blue solid;*/
+    color: black;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--white-luna);
+    border-right: solid 1px var(--light-grey);
+}
+
+.user-profile-restaurants-content-container{
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.user-profile-restaurants-title{
+    margin-top: 0.2%;
+    margin-bottom: 6%;
+    /*border: 2px solid fuchsia;*/
+
+}
+
+.user-profile-restaurants-name-container {
+    /*border: 2px solid green;*/
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.user-profile-restaurants-name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+
+.user-profile-review-time{
+    /*border: 2px solid darkred;*/
+    margin-top: 0.2%;
+    margin-bottom: 3%;
+    font-size: 80%;
+}
+
+.user-profile-review-time, .user-profile-reviews-rating, .user-profile-restaurants-text{
+    font-weight: lighter;
+}
+
+
+.create-restaurants-button{
+    margin-top: 4%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+name: group3_luna
+dependencies:
+  - python=3.11.3
+  - psycopg2=2.9.3
+  - pip=23.1.2
+  - pip:
+      - django==4.2.2
+      - djangorestframework==3.14.0
+      - djangorestframework_simplejwt==5.2.2
+      - drf-yasg==1.21.6
+      - pillow==9.5.0
+      - flake8==6.0.0
+      - gunicorn==20.1.0
+      - django-cors-headers==4.1.0
+      - phonenumbers==8.13.15

@@ -1,0 +1,15 @@
+.starRating-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.startInput {
+  display: none;
+}
+.starSize {
+  font-size: 2rem;
+}
+.totalRatingNumber {
+  font-size: 1.2rem;
+}

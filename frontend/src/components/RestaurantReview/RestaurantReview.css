@@ -1,0 +1,135 @@
+.ReviewCardContainer {
+  border: 1px lightgray solid;
+  margin: 15px;
+  width: 700px;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--white-luna);
+}
+
+.ReviewCardTopDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+img {
+  margin: 0;
+}
+
+.LeftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.reviewerName {
+  color: var(--orange-luna);
+  font-size: 20px;
+  margin: 0;
+}
+
+.reviewCount {
+  color: var(--lightBlack-luna);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.CreationDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  margin: 12px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.ReviewCardBottomDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ReviewText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 10px 0 0 10px;
+}
+
+.LikeCommentContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  height: 33px;
+  margin: 10px;
+}
+
+.ButtonContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  text-align: center;
+  background-color: #bdbdbd;
+  border: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0px;
+  height: 33px;
+  width: max(8vw, 125px);
+  cursor: pointer;
+  margin-right: 1px;
+
+  transition: all 0.2s ease;
+}
+
+.Like {
+  border-radius: 28px 0 0 28px;
+}
+
+.Like img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.Comment {
+  border-radius: 0 28px 28px 0;
+}
+
+.ShowComments {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  color: var(--orange-luna);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0 10px;
+  align-items: center;
+}

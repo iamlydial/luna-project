@@ -1,0 +1,17 @@
+.luna-button {
+  background: var(--orange-luna);
+  width: fit-content;
+  border: none;
+  color: var(--white-luna);
+  font-size: 1.2rem;
+  padding: 0.8rem 3.5rem;
+  border-radius: 1.7rem;
+  -webkit-border-radius: 1.7rem;
+  -moz-border-radius: 1.7rem;
+  -ms-border-radius: 1.7rem;
+  -o-border-radius: 1.7rem;
+}
+.luna-button:hover {
+  background: var(--orange-luna-hover);
+  cursor: pointer;
+}

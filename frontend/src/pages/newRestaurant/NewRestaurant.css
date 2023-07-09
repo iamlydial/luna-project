@@ -1,0 +1,110 @@
+.new-restaurant-page-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-restaurant-page-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    /*border: red 2px solid;*/
+    width: 100%;
+}
+.new-restaurant-page-title-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /*border: blue 2px solid;*/
+    padding: 1rem;
+}
+
+.orange-underline{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 1rem;
+    width: 14rem;
+    border-bottom: 2px var(--orange-luna) solid;
+    margin-bottom: 1rem;
+}
+
+.column-title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    padding-left: 0.7rem;
+    /*border: red 10px solid;*/
+}
+
+.page-rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /*border: purple 10px solid;*/
+}
+
+.page-columns{
+    solid-color: pink 10px solid;
+}
+
+.title{
+    padding-left: 1rem;
+    color: var(--lightBlack-luna);
+    letter-spacing: 0.1rem;
+}
+
+.row-one, .row-one, .row-three{
+    display: flex;
+    flex-direction: column;
+    /*border: fuchsia 2px solid;*/
+    width: 73vw;
+    align-items: center;
+}
+
+.row-columns{
+    display: flex;
+    flex-direction: row;
+}
+
+.field-title{
+    color: var(--grey-input-placeholder);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /*border: lightgreen 2px solid;*/
+}
+
+.field-title-button{
+    color: var(--grey-input-placeholder);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /*border: lightgreen 2px solid;*/
+}
+
+.input-field-container{
+    height: 6vh;
+    margin-bottom: 1rem;
+    border: 1px solid var(--light-grey);
+}
+
+.column-one-first, .column-one-second, .column-one-third{
+    display: flex;
+    flex-direction: column;
+    /*border: yellow 2px solid;*/
+    width: 24vw;
+    padding: 1rem;
+}
+
+.input-field-container{
+    width: 100%;
+}
+
+.error-message{
+    color: var(--delete-darkRed);
+}

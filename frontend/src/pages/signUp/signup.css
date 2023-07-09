@@ -1,0 +1,41 @@
+.signUp-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.8rem;
+  margin: 3.08rem 0;
+}
+
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.19rem;
+  align-items: center;
+}
+.signup-input {
+  width: 24.18rem;
+  font-weight: 600;
+}
+.signup-input::placeholder {
+  color: var(--grey-input-placeholder);
+  font-weight: 700;
+}
+.signUp-message {
+  width: 40%;
+  text-align: center;
+}
+.signup-verification-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.signup-verification-row {
+  display: flex;
+
+  gap: 3.19rem;
+  align-items: center;
+}
+.signup-erro-message {
+  color: red;
+}
